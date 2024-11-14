@@ -1,0 +1,121 @@
+.services-section {
+    background-color: white;
+    padding: 70px 0px;
+    position: relative;
+    z-index: 20;
+}
+
+.services h2 {
+    font-family: "Bricolage Grotesque";
+    font-size: 46px;
+    color: #051046;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}
+
+.services-para {
+    font-family: "Bricolage Grotesque";
+    font-size: 20px;
+    color: #737780;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.service-list {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    cursor: pointer;
+    gap: 50px;
+}
+
+.service-name:hover {
+    box-shadow: 8px 21px 37px -1px rgba(0, 0, 0, 0.10);
+    transition: 0.2s all ease-in-out;
+}
+
+
+.service-name:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+.service-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 2px 10px 42px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 16px;
+}
+
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-container img {
+    height: 50px;
+    margin-right: 30px;
+}
+
+.left-container p {
+    font-family: "Inter";
+    font-size: 18px;
+    color: #3D424D;
+}
+
+.icon {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 7px -1px rgba(0, 0, 0, 0.15);
+    height: 30px;
+    width: 30px;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon i {
+    color: #1064EE;
+    position: relative;
+    top: 19%;
+}
+
+.service-main {
+    width: 50%;
+}
+
+.service-detail {
+    width: 50%;
+    background-color: #F0F6FF;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+.service-detail h1 {
+    font-family: "Bricolage Grotesque";
+    color: #051046;
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.service-detail p {
+    font-size: 16px;
+    font-family: "Bricolage Grotesque";
+    color: #737780;
+    font-weight: 400;
+}
+
+.service-detail img {
+    width: 468px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}

@@ -1,0 +1,115 @@
+.two_promisses {
+    position: relative;
+    z-index: 20;
+    background-color: #EAF2FF;
+    padding: 70px 0px 100px 0px;
+}
+
+.two_promisses h1 {
+    font-size: 46px;
+    font-family: 'Bricolage Grotesque';
+    font-weight: bold;
+    color: #051046;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+
+.two_promisses span {
+    color: #1064EE;
+}
+
+.promise-div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.promise {
+    width: 50%;
+}
+
+.top-heading {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-heading img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.top-heading h3 {
+    font-size: 31px;
+    font-family: "Bricolage Grotesque";
+    color: #051046;
+}
+
+.promise p {
+    text-align: center;
+    color: #737780;
+    font-family: "Bricolage Grotesque";
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.promise-card {
+    border-radius: 7px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 4px 3px 14px -1px rgba(0, 0, 0, 0.15);
+}
+
+.promise-card:hover {
+    box-shadow: 6px 8px 14px -1px rgba(0, 0, 0, 0.35);
+    transition: all 0.4s ease;
+}
+
+.promise-card p {
+    font-family: "Bricolage Grotesque";
+    font-size: 16px;
+    font-weight: bold;
+    color: #051046;
+}
+
+.review-card {
+    text-align: center;
+    font-size: 12px;
+    color: #737780;
+    font-family: "Bricolage Grotesque";
+}
+
+.review-card img {
+    height: 12.49px;
+}
+
+.bottom {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fiver-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fiver-img img {
+    width: 75px;
+    margin-right: 20px;
+}
+
+.fiver-img p {
+    font-family: "Bricolage Grotesque";
+    font-size: 13px;
+    color: #737780;
+    margin-bottom: 10px;
+}
+
+.bottom img:nth-child(3) {
+    width: 37px;
+    margin-top: 5px;
+}

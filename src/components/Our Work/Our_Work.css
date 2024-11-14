@@ -1,0 +1,23 @@
+.Work-Container {
+    background-color: #EAF2FF;
+    padding: 70px 0px;
+    text-align: center;
+    position: relative;
+    z-index: 20;
+}
+
+.Work-Container h1 {
+    font-family: "Bricolage Grotesque";
+    color: #051046;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.Work-Container p {
+    font-family: "Bricolage Grotesque";
+    color: #737780;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}

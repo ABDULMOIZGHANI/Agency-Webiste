@@ -1,0 +1,54 @@
+.main-Navbar {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 40%, rgba(234, 242, 255, 1) 100%, rgba(248, 251, 255, 1) 501%);
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.Navbar {
+    height: 92px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img img {
+    width: 148px;
+    height: 34px;
+    cursor: pointer;
+}
+
+
+.menu-list ul {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-list ul {
+    margin-left: -40px;
+}
+
+.menu-list ul li {
+    list-style: none;
+    font-family: "Inter";
+    opacity: 0.7;
+    font-weight: 500;
+    font-size: 16px;
+    color: #585E68;
+    cursor: pointer;
+}
+
+.menu-list ul li:hover {
+    color: #121212;
+    opacity: 1;
+    transition: all 0.2s ease-in;
+}
+
+.menu-list ul li i {
+    margin-left: 5px;
+    font-size: 12px;
+    position: relative;
+    bottom: 1px;
+}

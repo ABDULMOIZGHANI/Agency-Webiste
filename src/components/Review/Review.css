@@ -1,0 +1,60 @@
+.review {
+    background-color: white;
+    padding: 70px 0px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.review h1 {
+    font-family: "Bricolage Grotesque";
+    color: #051046;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.review span {
+    color: #1064EE;
+}
+
+.review p {
+    color: #737780;
+    font-family: "Bricolage Grotesque";
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.button-review {
+    width: 197px;
+    height: 64px;
+    border: #1064EE 1px solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 50px auto 80px auto;
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.38);
+    cursor: pointer;
+    align-items: center;
+}
+
+.button-review h4 {
+    font-family: "Bricolage Grotesque";
+    color: #051046;
+    font-size: 25px;
+    margin: 0px 20px 0px 0px;
+}
+
+.review-img img {
+    height: 18px;
+}
+
+.review-img p {
+    color: #A7A7A7;
+    font-family: "Bricolage Grotesque";
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: left;
+}

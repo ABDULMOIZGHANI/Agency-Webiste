@@ -1,0 +1,115 @@
+.footer-body {
+    width: 100%;
+    background-color: #0E2250;
+    height: 440px;
+    position: relative;
+    z-index: 20;
+    margin-top: -22px;
+}
+
+.main-footer {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-top-cont {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-cont h1 {
+    font-family: "Bricolage Grotesque";
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.social-icon {
+    background-color: #263862;
+    height: 40px;
+    width: 40px;
+    border-radius: 400px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon i {
+    color: #fff;
+}
+
+.facebook:hover {
+    color: #1877f2 !important;
+    transition: all 0.2s ease;
+}
+
+.linkedin:hover {
+    color: #0077B5 !important;
+    transition: all 0.2s ease;
+}
+
+.insta:hover {
+    color: #c32aa3 !important;
+    transition: all 0.2s ease;
+}
+
+.youtube:hover {
+    color: #ff0000 !important;
+    transition: all 0.2s ease;
+}
+
+.newsletter h2 {
+    color: #fff;
+    font-family: "Bricolage Grotesque";
+    font-size: 25px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 30%;
+}
+
+#btn {
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #1064EE;
+}
+
+#btn i {
+    color: #fff;
+}
+
+.newsletter p {
+    color: #cacaca;
+    font-family: "Bricolage Grotesque";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-footer hr {
+    background-color: #c7c7c7;
+    height: 1px;
+    margin-top: 20px;
+    border: none;
+}
